@@ -8,9 +8,9 @@
 ```
 # compile 
 make
-# enqueue some data to shm
+# run enqueuer_cli to insert some data to shm
 ./enqueuer
-# dequeue data from shm
+# run dequeuer_cli to get data from shm
 ./dequeuer
 
 # clean

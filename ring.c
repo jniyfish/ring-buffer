@@ -48,6 +48,7 @@ int dequeue(queue_t *queue, entry_t **entry) {
         *entry = (entry_t *)(queue->entry) + queue->head;
         queue->head = (queue->head+1)%queue->entry_num;
     }
+    return 0;
 }
 
 void print_queue_head_tail(queue_t *queue)
